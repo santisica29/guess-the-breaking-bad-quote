@@ -6,12 +6,12 @@ body {
 }
 
 h1 {
-  font-size: 1.6rem;
+  font-size: 1.25rem;
 }
 
 h2 {
-  font-size: 1.1rem;
-  width: 75%;
+  font-size: 1rem;
+  width: 85%;
   margin: auto;
 }
 
@@ -25,8 +25,17 @@ h4 {
   font-weight: 400;
 }
 
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.2rem;
+}
+
 input {
   height: 2.1rem;
+  width: 9.6rem;
   text-align: center;
   color: blue;
   font-weight: bold;
@@ -35,6 +44,8 @@ input {
 }
 
 button {
+  display: inline-block;
+  width: 10rem;
   border: none;
   border-radius: 4px;
   padding: 0.7rem 1.5rem;
@@ -48,6 +59,16 @@ button:hover {
   background-color: rgb(9, 9, 65);
 }
 
+@media (min-width: 500px) {
+  .flex-container {
+    flex-direction: row;
+  }
+  button {
+    display: inline-block;
+    width: 9rem;
+  }
+}
+
 @media (min-width: 800px) {
   h1 {
     font-size: 1.9rem;
@@ -59,7 +80,6 @@ button:hover {
 
   h3 {
     font-size: 1.1rem;
-    
   }
 }
 
