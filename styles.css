@@ -1,0 +1,78 @@
+body {
+  background-color: rgb(22, 22, 124);
+  color: white;
+  font-family: Tahoma, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 1.6rem;
+}
+
+h2 {
+  font-size: 1.1rem;
+  width: 75%;
+  margin: auto;
+}
+
+h3 {
+  font-size: 0.9rem;
+  margin-bottom: 1.5rem;
+  font-weight: 400;
+}
+
+h4 {
+  font-weight: 400;
+}
+
+input {
+  height: 2.1rem;
+  text-align: center;
+  color: blue;
+  font-weight: bold;
+  border-radius: 3px;
+  border: 1px solid darkblue;
+}
+
+button {
+  border: none;
+  border-radius: 4px;
+  padding: 0.7rem 1.5rem;
+  background-color: rgb(5, 5, 36);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(9, 9, 65);
+}
+
+@media (min-width: 800px) {
+  h1 {
+    font-size: 1.9rem;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+  }
+
+  h3 {
+    font-size: 1.1rem;
+    
+  }
+}
+
+@media (min-width: 1200px) {
+  h1 {
+    font-size: 2.2rem;
+  }
+
+  h2 {
+    font-size: 1.7rem;
+  }
+
+  h3 {
+    font-size: 1.3rem;
+  }
+}
